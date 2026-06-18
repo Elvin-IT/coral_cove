@@ -1,9 +1,9 @@
 import { Villa, DiningOutlet, Experience, Offer } from './types';
 
 export const RESORT_IMAGES = {
-  hero: '/src/assets/images/coral_cove_hero_1781759491817.jpg',
-  overwaterBungalow: '/src/assets/images/coral_cove_bungalow_1781759509792.jpg',
-  spa: '/src/assets/images/coral_cove_spa_1781759525624.jpg',
+  hero: '/assets/images/coral_cove_hero_1781759491817.jpg',
+  overwaterBungalow: '/assets/images/coral_cove_bungalow_1781759509792.jpg',
+  spa: '/assets/images/coral_cove_spa_1781759525624.jpg',
   beachfrontPoolVilla: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80',
   gardenVilla: 'https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80',
   familyVilla: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80',
