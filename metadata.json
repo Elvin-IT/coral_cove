@@ -1,0 +1,6 @@
+{
+  "name": "Coral Cove Island Resort",
+  "description": "Coral Cove Island Resort - A 5-star eco-luxury private island resort off the coast of Zanzibar, featuring beachfront villas, over-water bungalows, dining, oceanfront wellness retreats, and destination weddings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
