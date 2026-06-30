@@ -39,21 +39,15 @@ export default function Navbar({ activeTab, setActiveTab, onOpenBooking }: Navba
               className="flex items-center space-x-2 text-left group"
               id="brand-logo-btn"
             >
-              <div className="relative">
-                <Compass className="w-8 h-8 text-teal-700 group-hover:rotate-45 transition-transform duration-500" />
-                <span className="absolute -top-1 -right-1 flex h-2.5 w-2.5">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-500"></span>
-                </span>
-              </div>
-              <div>
-                <span className="block font-serif text-xl tracking-wider text-stone-900 group-hover:text-teal-800 transition-colors">
-                  CORAL COVE
-                </span>
-                <span className="block text-[8px] tracking-widest text-[#FE8F8F] uppercase font-bold">
-                  Eco-Luxury Private Island
-                </span>
-              </div>
+              <a href="/" onClick={(e) => { e.preventDefault(); handleNavClick('home'); }}>
+                <img
+                  src="https://i.ibb.co/4n0hYzW9/Secondary-logo.jpg"
+                  alt="Secondary-logo"
+                  border="0"
+                  className="h-16 w-auto max-w-[171px] object-contain"
+                />
+              </a>
+
             </button>
           </div>
 
